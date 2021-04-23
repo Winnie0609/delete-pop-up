@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="popup.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Pop-up | UI</title>
+<head>
+<body>
+    <div class="container">
+    <header class="navbar">
+        <div class="document">Name</div>
+        <div class="date" >Last Modified</div>
+        <div class="size">File Size</div>
+    </header>
+
+    <div class="file one">
+        <div class="document"><img class="icon" src="https://i.postimg.cc/63t6TcBV/document.png" alt="file">&nbsp;&nbsp;&nbsp;Bear</div>
+        <div class="date">Jan 18, 2021</div>
+        <div class="size">35 kb</div>
+        <div class="delete del-one"><img class="icon" src="https://i.postimg.cc/hjsDmmGk/delete.png" alt="delete"></div>
+    </div>
+
+    <div class="file two">
+        <div class="document"><img class="icon" src="https://i.postimg.cc/63t6TcBV/document.png" alt="file">&nbsp;&nbsp;&nbsp;Tiger Gave</div>
+        <div class="date">Jan 18, 2021</div>
+        <div class="size">55 kb</div>
+        <div class="delete del-two"><img class="icon" src="https://i.postimg.cc/hjsDmmGk/delete.png.png" alt="delete"></div>
+    </div>
+
+    <div class="file three">
+        <div class="document"><img class="icon" src="https://i.postimg.cc/63t6TcBV/document.png" alt="file">&nbsp;&nbsp;&nbsp;Wolf Project</div>
+        <div class="date">Mar 05, 2021</div>
+        <div class="size">30 kb</div>
+        <div class="delete del-three"><img class="icon" src="https://i.postimg.cc/hjsDmmGk/delete.png.png" alt="delete"></div>
+    </div>
+
+    <div id="overlay">
+        <div class="pop-up">
+            <img class="rubbish" src="https://i.postimg.cc/vHMKjK3t/rubbish.png.png">
+            <p class="del-statment">You are about to delete a file.</p>
+            <p class="del-ask">Are you sure?</p>
+            <div class="btn">
+                <button id="cancel-btn">Cancel</button>
+                <button id="delete-btn">Delete</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="clear">There are no more files.</div>
+
+    </div>
+    <script type="text/javascript" src="popup.js"></script>
+</body>
+</html>

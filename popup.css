@@ -1,0 +1,180 @@
+body{
+    font-family: 'Roboto', sans-serif;;
+    font-size: 16px;
+    background-color: #F3F8FE;
+}
+
+.container{
+    position: relative;
+    max-width: 1000px;
+    min-width: 630px;
+    margin: 80px auto;
+    height: 500px;
+    background-color: #f8fbff;
+    border-radius: 25px;
+    padding: 60px 0;
+    box-shadow:
+    0 4.7px 11.6px rgba(0, 0, 0, 0.027),
+    0 10.5px 39.1px rgba(0, 0, 0, 0.041),
+    0 15px 175px rgba(0, 0, 0, 0.07)
+    ;
+}
+
+.navbar{
+    display: flex;
+    color:grey;
+    margin: 10px 50px;
+    padding: 15px 50px 12px 40px;
+}
+
+.one{
+    flex: 35%;
+}
+
+.two{
+    flex: 20%;
+}
+
+.three{
+    background-color: cornflowerblue;
+    flex: 10%;
+}
+
+p{
+    margin: 0;
+}
+
+.icon{
+    width: 15px;
+}
+
+.file{
+    background-color: #ffffff;
+    box-shadow:
+    0 4.7px 11.6px rgba(0, 0, 0, 0.027),
+    0 10.5px 39.1px rgba(0, 0, 0, 0.041),
+    0 15px 175px rgba(0, 0, 0, 0.07)
+    ;
+    border-radius: 23px;
+    margin: 10px 50px;
+    padding: 15px 40px;
+    display: flex;
+}
+
+.file:hover{
+    background-color:#167Af2;
+    color: #ffffff;
+}
+
+.document{
+    flex: 30%;
+}
+
+.date{
+    flex: 15%;
+}
+
+.size{
+    flex: 3%;
+}
+
+.del-one,
+.del-two,
+.del-three{
+    flex: 0;
+    cursor: pointer;
+}
+
+/* Pop-up */
+
+.pop-up{
+    background: #ffffff;
+    width: 45%;
+    height: 40%;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 30px 45px 30px 45px;
+    box-shadow:
+    0 4.7px 11.6px rgba(0, 0, 0, 0.027),
+    0 10.5px 39.1px rgba(0, 0, 0, 0.041),
+    0 15px 175px rgba(0, 0, 0, 0.07)
+    ;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rubbish{
+    width: 65px;
+    padding-top: 20px;
+}
+
+.btn{
+    align-self: flex-end;
+    margin-bottom: 10em;
+}
+
+#overlay {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0%;
+    background-color: rgba(157, 160, 177, 0.43);
+    border-radius: 25px;
+}
+
+.del-statment{
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.del-ask{
+    font-size: 18px;
+    color :grey;
+    padding: 5px;
+    margin: 0;
+}
+
+.btn{
+    text-align: right;
+    padding: 40px 0;
+}
+
+#cancel-btn{
+    font-size: 16px;
+    font-weight: 300;
+    border: none;
+    outline: none;
+    color: grey;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#delete-btn{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #de3737;
+    padding: 10px 23px;
+    border-radius: 10px;
+    margin-left: 20px ;
+    cursor: pointer;
+}
+
+
+.clear{
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(130px, -20px);
+    font-size: 23px;
+    color: grey;
+}
